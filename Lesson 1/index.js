@@ -7,10 +7,13 @@ const person = new Object({
 });
 
 Object.prototype.sayHello = function () {
-  console.log("Hwllo");
+  console.log("Hello");
 };
 
 const lena = Object.create(person);
-lena.name = "Elena";
+lena.name = "Lwna";
 
 const str = new String("I am a string");
+
+const x = ["Hello", 1];
+const arr = new Array(x);
